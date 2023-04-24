@@ -1,0 +1,15 @@
+edition: 1.0.0
+name: stable diffusion
+access: huangnuoyi
+
+vars:
+  Key: Value
+
+actions: globalActions
+
+services:
+  ServiceName: stable diffusion
+    access: huangnuoyi
+    component: huangnuoyi
+    props: serviceProp
+    actions: serviceActions
